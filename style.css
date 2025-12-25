@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  .hero{
+  height: 300px;
+  width: 100%;
+  background-image:url(picrure/p-shauly02.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  color: rgb(17, 30, 178);
+  margin-bottom: 5px;
+
+  }
+   .project{
+    width: 100%;
+    height: 620px;
+    
+   }
+   .project-item{
+    margin-top: 18px;
+    float: left;
+    width: 32%;
+    height: 300px;
+    border-radius: 1px;
+    margin-left: 10px;
+    overflow: hidden;
+  
+   }
+   .project-img{
+    width: 100%;
+    height: 235px;
+   }
+   h5{
+    color: darkgreen;
+    margin-left: 10px;
+    margin-top: 5px;
+   }
+   p{
+    color: rgb(148, 11, 134);
+    margin-left: 10px;
+    margin-top: 5px;
+   }
+   .p-shauly{
+    width: 100%;
+    height: 235px;
+   }
+   .image-3{
+    width: 100%;
+    height: 235px;
+   }
+   .footer{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(125, 148, 190);
+    margin-top: 15px;
+   }
+   .footer-item{
+    float: left;
+    width: 32%;
+    margin-left: 10px;
+   
+   }
+  .footer-item a{
+      text-decoration: none;
+      margin-left: 10px;
+    }
+     @media  screen and (max-width: 1085px) {
+      .hero{
+        color: rgb(17, 209, 26);
+      }
+     }
+      @media  screen and (max-width: 1000px) {
+      .hero{
+       color: rgb(111, 12, 111);
+      }
+     }
